@@ -9,6 +9,10 @@ body {
   * {
     box-sizing: border-box;
   }
+
+  .work{
+    float: right;
+  }
   
   /* general */
   
@@ -230,4 +234,7 @@ body {
     @media screen and (max-width: 640px) {
         body {
           background-color: papayawhip
-        }
+        };
+
+      
+    
