@@ -1,54 +1,99 @@
-<!doctype html>
-<html lang="en-us">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>About | Diamond Gaines</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
-
-<body>
-
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Diamond Gaines</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>About Me</h1>
-
-      <img src="assets/images/me.jpg" class="auth-image" alt="Diamond">
-
-      <p>Hello!</p>
-
-      <p>Welcome to my page... I am from a small town in Arizona. My background is mostly in Customer Service and Tech Support. 
-        Which is how I found my love for programming. In my free time I love to study the Korean language and watch Korean Dramas.
-        <br>
-        I am currently enrolled in the University of Arizona's coding bootcamp and I'm developing skills in HTML5, CSS3, JavaScript,
-        jQuery, Bootstrap, Express.js, React.js, Node.js, Database Theory, MongoDB, MySQL, Command Line, java, Git and more. 
-        It's definitely a journey and much to take in. But I'm loving every new "concept" I learn. I look forward to learning these skills and seeing where 
-        they take me in the next chapter of my life.
-      </p>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUTME</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Marcellus+SC&display=swap" rel="stylesheet">
+        <!-- internal css sheet-->
+   <style>
+        body
+        {background-image: url(https://images-na.ssl-images-amazon.com/images/I/71%2BzW%2BD2aHL._AC_SX355_.jpg);
+        background-repeat: inherit;
+        opacity: 0.9;
+        }
     
 
-    </section>
+ #masthead{
+float: right;
+}
 
-  </div>
+.AboutMe{
+    padding-top: 0px;
+    margin-left: 420px;
+    color: firebrick;
+    font-size: 28px;
+    font-family: 'Marcellus SC', serif;
+}
 
-  <footer>
+
+
+.text-block{
+    position: relative;
+    bottom: 40px;
+    left: 80px;
+    opacity: 0.2;
+    color: whitesmoke;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.container {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+
+
+
+ </style>
+</head>
+<body>
+    
+
     <div class="container">
-      Copyright &copy; 
+    
+        <header class="topleft">
+    
+            <img src="assets/images/me.jpg" width="400" height="400">
+    
+            <div class="text-block">
+   
+                <h4>Diamond Gaines</h4> </div>
+        </header>
     </div>
-  </footer>
-</body>
+   
 
+    <header id="masthead">
+          <nav>
+             
+            <a href="portfolio.html">
+                <img src="assets/images/My work.jpg" alt="Portfolio" class="rounded-pill" width="165" height="165"> </a>
+            
+            <a href="index.html"> 
+                  <img src="assets/images/about.png" alt="AboutMe" class="rounded-pill" width="165" height="165"> </a>          
+            
+              <a href="contact.html">
+                          <img src="assets/images/connect.jfif" alt="Contact Me" class="rounded-pill" width="165" height="165"> </a>
+            </nav>
+            </header>
+
+<span class="border border-white"><div class="AboutMe">
+ <p>
+ Hello!
+<br>
+Welcome to my page... I am from a small town in Arizona. My background is mostly in Customer Service and Tech Support. Which is how I found my love for programming. In my free time I love to study the Korean language and watch Korean Dramas.
+I am currently enrolled in the University of Arizona's coding bootcamp and I'm developing skills in HTML5, CSS3, JavaScript, jQuery, Bootstrap, Express.js, React.js, Node.js, Database Theory, MongoDB, MySQL, Command Line, java, Git and more. It's definitely a journey and much to take in. But I'm loving every new "concept" I learn. I look forward to learning these skills and seeing where they take me in the next chapter of my life.
+</p>
+</div>
+</span>
+       
+        
+    
+
+</body>
 </html>
