@@ -9,16 +9,37 @@
     
         <!-- internal css sheet-->
    <style>
-        body
-        {background-image: url(https://images.unsplash.com/photo-1493723843671-1d655e66ac1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
-          background-repeat: no-repeat;
-        -webkit-background-size: cover;
-        opacity: 0.9;
-        }
+        
+body{
+background-image: url(https://images.unsplash.com/photo-1493723843671-1d655e66ac1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+opacity: 0.9;
+}
     
 
  #masthead{
 float: right;
+position: relative;
+text-align: center;
+}
+
+#center{
+  position: absolute;
+  top: 50%;
+  left: 27%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 25px;
+}
+
+#centertwo{
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 25px;
 }
 
 .AboutMe{
@@ -26,9 +47,15 @@ float: right;
     margin-left: 420px;
     color: black;
     font-size: 28px;
-    font-family: 'Marcellus SC', serif;
+    font-family: sans-serif;
 }
 
+.info{
+  font-size: large;
+  color: black;
+  font-family: sans-serif;
+  padding-bottom: 55px;
+}
 
 
 .text-block{
@@ -49,13 +76,11 @@ float: right;
   z-index: -1;
 }
 
-.info{
-  font-size: large;
-  color: white;
-  font-family: 'Marcellus SC', serif;
-  padding-bottom: 55px;
-}
 
+
+#black{
+  color: black;
+}
 @media screen and (max-width: 960px) {
   #masthead{ background-color: white; 
     
@@ -77,6 +102,9 @@ float: right;
  </style>
 </head>
 <body>
+
+
+  
     
 
     <div class="container">
@@ -95,9 +123,11 @@ float: right;
     <header id="masthead">
           <nav>
             <a href="index.html"> 
-              <img src="assets/images/brooke-lark-GTMGG-xvxdU-unsplash.jpg" alt="AboutMe" class="rounded-pill" width="165" height="165"></a>  
-            <a href="portfolio.html">
-                <img src="assets/images/plush-design-studio-FHCVK6Vyvwc-unsplash.jpg" alt="Portfolio" class="rounded-pill" width="165" height="165"> </a>       
+              <img src="assets/images/markus-spiske-opgqW7EZ-yk-unsplash.jpg" alt="AboutMe" class="rounded-pill" width="165" height="165">
+              <div id="center">AboutMe</div></a>  
+           
+              <a href="portfolio.html">
+                <img src="assets/images/jr-korpa-nJ8Jrn9y_EA-unsplash.jpg" alt="Portfolio" class="rounded-pill" width="165" height="165"> <div id="centertwo">Portfolio</div> </a>       
             </nav> 
             </header> 
 
@@ -119,12 +149,12 @@ I am currently enrolled in the University of Arizona's coding bootcamp and I'm d
   <h2>Email: poppijewel@gmail.com
   <br>
     Phone Number: (480)587-2900
-    <br>
-    <a href="https://www.linkedin.com/in/diamond-gaines-947b74197/">LinkedIn</a>
-    <br>
-    <a href="https://github.com/marleymarie">GitHub</a>
-    <br>
-    <a href="https://drive.google.com/file/d/1SwuUM6ZR6EwTeVztgPDPaUc-kMhO6tNa/view?usp=sharing">My Resume</a>
+    
+    <ul>
+    <li><a href="https://www.linkedin.com/in/diamond-gaines-947b74197/" id="black">LinkedIn</a></li>
+    <li><a href="https://github.com/marleymarie" id="black">GitHub</a></li>
+    <li><a href="https://drive.google.com/file/d/1SwuUM6ZR6EwTeVztgPDPaUc-kMhO6tNa/view?usp=sharing" id="black">My Resume</a></li>
+    </ul>
   </h2>
   </div>
    
